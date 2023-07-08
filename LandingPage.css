@@ -1,0 +1,261 @@
+body{
+    background-color: #a3b1e5;
+    font-family: Outfit;
+}
+.root{
+    padding: 39px 180px 200px 185px;
+}
+*{
+    text-decoration: none;
+}
+.fixed{
+    position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar{
+    font-family: Outfit;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 9.36px;
+    text-align: left;
+    color: #fff;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+nav li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-right: 19px;
+}
+button{
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button a{
+    font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+.login{
+    background-color: #111f53;
+
+}
+.login a{
+    color: #fff;
+  text-transform: uppercase;
+}
+.register{
+    border: solid 1px #111f53;
+  background-color: #a3b1e5;
+}
+.signup-button{
+    border-radius: 119px;
+  background-color: #42507e;
+  margin-top: 45px;
+  width: 255px;
+  height: 76px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.signup-button a{
+    font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.hero-text{
+  font-size: 32px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.08;
+  letter-spacing: 2.88px;
+  text-align: left;
+  color: #021557;
+}
+.image-work{
+    width: 500px;
+  height: 243px;
+  margin: 20px;
+  mix-blend-mode: darken;
+}
+.hero-section{
+    width: 50%;
+    margin-top: 230px;
+
+}
+.hero-image{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.main{
+    display: flex;
+}
+.services{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.service-heading{
+    font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.sercice-paragragh{
+    font-size: 36px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #111f53;
+}
+.img{
+    width: 252px;
+    height: 278px;
+    mix-blend-mode: darken;
+    padding: 25px;
+}
+.para{
+    width: 790px;
+}
+.service-content{
+    display: flex;
+    padding-left: 188px;
+    padding-top: 50px;
+}
+.about{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.pricing{
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+}
+.card{
+    width: 341px;
+  height: 408px;
+  margin: 56px 22px 27px 0;
+  margin-bottom: -25px;
+  padding: 37px 23px 74px 56px;
+  border-radius: 25px;
+  background-color: #42507e;
+}
+.card-button{
+    width: 164px;
+    height: 55px;
+    
+    
+    margin-top: 0px;
+    border-radius: 25px;
+    background-color: #021557;
+}
+.card-heading{
+    font-family: Outfit;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.card-item{
+    font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #fff;
+  margin: 15px;
+}
+.card-list{
+    list-style-type: disc;
+    margin-top: 70px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    padding: 9px;
+    margin: 10px;
+    border-radius: 60%;
+    background-color: #a3b1e5;
+}
+.social a i{
+    font-size: 2em;
+    color: #fff;
+}
+footer{
+    margin-top: 10px;
+}
+.footer-text{
+    text-align: center;
+    color: #fff;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
+#service{
+    padding-top:50px ;
+}
+#about{
+    padding-top: 50px;
+}
+#pricing{
+    padding-top: 4px;
+}
